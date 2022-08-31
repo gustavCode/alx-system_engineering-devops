@@ -10,3 +10,5 @@ This is the root directory
 
 4-listmorefiles contains the command to display a long listing of all files in the current working directory
 
+5-listfilesdigitonly contains the command to display a long listing of all files in the current working directory with user and group displayed numerically
+
