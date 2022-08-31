@@ -12,3 +12,5 @@ This is the root directory
 
 5-listfilesdigitonly contains the command to display a long listing of all files in the current working directory with user and group displayed numerically
 
+6-firstdirectory contains the command to create a directory in /tmp direcotry
+
