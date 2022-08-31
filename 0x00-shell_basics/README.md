@@ -8,3 +8,5 @@ This is the root directory
 
 3-listfiles contains the command to display a long listing of files in the current working directory
 
+4-listmorefiles contains the command to display a long listing of all files in the current working directory
+
