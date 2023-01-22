@@ -1,6 +1,6 @@
 # Command line for the win
 
-!(https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/324/06AChAO.png)
+![This is an image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/324/06AChAO.png)
 
 # Background Context
 
@@ -25,9 +25,9 @@ Complete the first 9 tasks.
 
 **Repo:**
 
-    - GitHub repository: alx-system_engineering-devops
-    * Directory: command_line_for_the_win
-    + File: 0-first_9_tasks.jpg,0-first_9_tasks.png
+- GitHub repository: alx-system_engineering-devops
+- Directory: command_line_for_the_win
+- File: 0-first_9_tasks.jpg,0-first_9_tasks.png
 
 
 **1. Reach חי completed tasks**
@@ -36,9 +36,9 @@ Complete the 9 next tasks, getting to 18 total.
 
 **Repo:**
 
-    - GitHub repository: alx-system_engineering-devops
-    * Directory: command_line_for_the_win
-    + File: 1-next_9_tasks.jpg,1-next_9_tasks.png
+- GitHub repository: alx-system_engineering-devops
+- Directory: command_line_for_the_win
+- File: 1-next_9_tasks.jpg,1-next_9_tasks.png
 
 
 **2. Reach the perfect cube, 27**
@@ -47,6 +47,6 @@ Complete the 9 next tasks, getting to 27 total.
 
 **Repo:**
 
-    - GitHub repository: alx-system_engineering-devops
-    * Directory: command_line_for_the_win
-    + File: 2-next_9_tasks.jpg,2-next_9_tasks.png
+- GitHub repository: alx-system_engineerig-devops
+- Directory: command_line_for_the_win
+- File: 2-next_9_tasks.jpg,2-next_9_tasks.png
