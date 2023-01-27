@@ -2,6 +2,6 @@
 
 LIST="$(ls .)"
 
-for i in "$LIST"; do
+for i in $LIST; do
     echo "$i" | cut -d '-' -f 2;
 done
