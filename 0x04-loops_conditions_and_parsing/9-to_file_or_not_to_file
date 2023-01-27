@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Displays information about a file
 
-if [ -a school ]; then
+if [ -e school ]; then
     echo "school file exits";
     if [ ! -s school ]; then
 	echo "school file is empty";
