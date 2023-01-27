@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Displays Hi after 9th iteration
 
 i="0"
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Displays information about a file
 
 if [ -a school ]; then
     echo "school file exits";

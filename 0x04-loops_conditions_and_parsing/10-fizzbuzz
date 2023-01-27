@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-n=1
+n="1"
 
-while [ "$n" -le 100 ]; do
+while [ "$n" -le "100" ]; do
   if ! (( n % 3 )) && ! (( n % 5 )); then
     echo "FizzBuzz"
   elif ! (( n % 3 )); then
@@ -13,5 +13,5 @@ while [ "$n" -le 100 ]; do
     echo "$n"
   fi
   
-  ((n++))
+  n=$((n+1))
 done
