@@ -5,7 +5,7 @@
 IP="${1}"
 
 # filename variable
-file_name=$(basename "${BASH+SOURCE[@]}")
+file_name=$(basename "${BASH_SOURCE[@]}")
 
 if ! [ "$IP" ]; then
 	echo "Usage: ${file_name} {IP_ADDRESS}"
