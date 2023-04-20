@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Install and configure HAproxy on lb-01 server
+
+sudo apt-get update
+sudo apt-get -y install haproxy
+
+server_config=\
+"
+frontend gustavco-frontend
+	bind *:80
+	mode http
+	default_backend gustavco-backend
+
+backend gustavco-backend
+	balance roundrobin
+	server 105054-web-01 54.158.188.83:80 check
+	server 105054-web-02 100.25.182.201:80 check
+"
+
+echo "$server_config" >> /etc/haproxy/haproxy.cfg
+echo "ENABLED=1" >> /etc/default/haproxy
+
+sudo service haproxy restart
